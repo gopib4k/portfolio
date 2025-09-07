@@ -1,0 +1,147 @@
+{
+  "hero": {
+    "name": "Gopi",
+    "fullName": "Mere Venkat Gopi Krishna",
+    "roles": ["Full Stack Developer", "Tech Content Creator", "Founder of gtech_dsa"],
+    "tagline": "I build responsive web applications, share my learnings through content, and believe in growing by teaching.",
+    "ctas": ["See My Work", "Get in Touch", "Download Resume"],
+    "socials": {
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername",
+      "instagram": "https://instagram.com/gtech_dsa"
+    }
+  },
+  "about": {
+    "who": "I'm a passionate full-stack developer and content creator. I believe 'Teaching what you learn is the best way to grow' — that's what inspired my content creation journey.",
+    "what": [
+      "Build responsive, real-time web applications",
+      "Create tech content explaining DSA simply",
+      "Write clean, maintainable code",
+      "Build real-world projects with impact",
+      "Class Representative from 1st year to present — leadership & interpersonal skills"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Rythu Vikas",
+      "category": "Full Stack",
+      "desc": "A platform connecting farmers with buyers directly, enabling better market access and fair pricing.",
+      "tech": ["React", "Flask", "MongoDB", "WebSockets"],
+      "live": "https://demo.com",
+      "repo": "https://github.com/yourusername/rythu-vikas",
+      "image": "https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 2,
+      "title": "Barcode Billing App",
+      "category": "Full Stack",
+      "desc": "Real-time billing and product management system with barcode scanning capabilities.",
+      "tech": ["React", "Node.js", "MongoDB", "Express"],
+      "live": "https://demo.com",
+      "repo": "https://github.com/yourusername/barcode-app",
+      "image": "https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 3,
+      "title": "AI Crop Classifier",
+      "category": "AI/ML",
+      "desc": "Machine learning model to identify and classify crops from images using computer vision.",
+      "tech": ["Python", "TensorFlow", "Flask", "OpenCV"],
+      "live": "https://demo.com",
+      "repo": "https://github.com/yourusername/crop-classifier",
+      "image": "https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 4,
+      "title": "DSA Visualizer",
+      "category": "Frontend",
+      "desc": "Interactive game-style tool to explain Data Structures and Algorithms concepts visually.",
+      "tech": ["React", "D3.js", "Tailwind CSS", "Framer Motion"],
+      "live": "https://demo.com",
+      "repo": "https://github.com/yourusername/dsa-visualizer",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 5,
+      "title": "Portfolio Website",
+      "category": "Frontend",
+      "desc": "Modern, responsive portfolio website with glassmorphism design and smooth animations.",
+      "tech": ["React", "Tailwind CSS", "Framer Motion"],
+      "live": "https://demo.com",
+      "repo": "https://github.com/yourusername/portfolio",
+      "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 6,
+      "title": "Snake Game",
+      "category": "Games",
+      "desc": "Classic snake game with modern UI and high score tracking.",
+      "tech": ["JavaScript", "HTML5 Canvas", "CSS3"],
+      "live": "https://demo.com",
+      "repo": "https://github.com/yourusername/snake-game",
+      "image": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ],
+  "skills": {
+    "frontend": [
+      { "name": "React", "level": 90, "icon": "react" },
+      { "name": "Next.js", "level": 85, "icon": "nextjs" },
+      { "name": "Tailwind CSS", "level": 95, "icon": "tailwind" },
+      { "name": "Redux", "level": 80, "icon": "redux" },
+      { "name": "TypeScript", "level": 85, "icon": "typescript" },
+      { "name": "JavaScript", "level": 90, "icon": "javascript" },
+      { "name": "HTML5", "level": 95, "icon": "html" },
+      { "name": "CSS3", "level": 90, "icon": "css" }
+    ],
+    "backend": [
+      { "name": "Flask", "level": 85, "icon": "flask" },
+      { "name": "Node.js", "level": 80, "icon": "nodejs" },
+      { "name": "Express", "level": 75, "icon": "express" },
+      { "name": "REST APIs", "level": 85, "icon": "api" },
+      { "name": "Python", "level": 90, "icon": "python" },
+      { "name": "MongoDB", "level": 80, "icon": "mongodb" }
+    ],
+    "database": [
+      { "name": "MongoDB", "level": 80, "icon": "mongodb" },
+      { "name": "PostgreSQL", "level": 75, "icon": "postgresql" },
+      { "name": "MySQL", "level": 70, "icon": "mysql" },
+      { "name": "Firebase", "level": 85, "icon": "firebase" }
+    ],
+    "tools": [
+      { "name": "Git", "level": 90, "icon": "git" },
+      { "name": "GitHub", "level": 90, "icon": "github" },
+      { "name": "VSCode", "level": 95, "icon": "vscode" },
+      { "name": "Postman", "level": 85, "icon": "postman" },
+      { "name": "Docker", "level": 70, "icon": "docker" },
+      { "name": "Figma", "level": 75, "icon": "figma" }
+    ],
+    "testing": [
+      { "name": "PyTest", "level": 80, "icon": "pytest" },
+      { "name": "Jest", "level": 75, "icon": "jest" },
+      { "name": "React Testing Library", "level": 70, "icon": "testing" }
+    ]
+  },
+  "achievements": {
+    "certifications": [
+      "Full Stack Web Development - Coursera",
+      "Python for Data Science - IBM",
+      "React Advanced Patterns - Udemy"
+    ],
+    "awards": [
+      "Best Project Award - College Tech Fest 2023",
+      "Outstanding Leadership - Class Representative",
+      "Top Contributor - Open Source Project"
+    ],
+    "education": [
+      "B.Tech Computer Science Engineering",
+      "CGPA: 8.5/10",
+      "Expected Graduation: 2025"
+    ],
+    "extras": ["Leadership", "Teamwork", "Communication", "Problem Solving", "Content Creation"]
+  },
+  "contact": {
+    "email": "gopivenkat@example.com",
+    "message": "Open to collaborations, projects, or just a good tech talk 🚀"
+  }
+}
