@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
     triggerOnce: true,
   });
 
-  const categories = ['All Skills', 'Frontend', 'Backend', 'Database', 'Tools', 'Testing'];
+  const categories = ['All Skills', 'Frontend', 'Backend', 'Database', 'Tools'];
 
   const getSkillsForCategory = () => {
     if (activeCategory === 'All Skills') {
@@ -98,7 +98,7 @@ const Skills: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="mt-16"
           >
-            <div className="text-center">
+            {/* <div className="text-center">
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={inView ? { opacity: 1, scale: 1 } : {}}
@@ -108,7 +108,7 @@ const Skills: React.FC = () => {
                 <div className="w-2 h-2 bg-neon-green rounded-full animate-pulse" />
                 <span>Hover over skills to see proficiency levels</span>
               </motion.div>
-            </div>
+            </div> */}
           </motion.div>
         )}
       </div>

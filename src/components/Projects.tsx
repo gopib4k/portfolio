@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ExternalLink, Github, Eye } from 'lucide-react';
+import { ExternalLink, Github, Eye, Info } from 'lucide-react';
 import SectionHeader from './SectionHeader';
 import GlassCard from './GlassCard';
+import ProjectModal from './ProjectModal';
 import portfolioData from '../data/portfolio.json';
 
 const Projects: React.FC = () => {
   const { projects } = portfolioData;
   const [activeFilter, setActiveFilter] = useState('All Projects');
+  const [selectedProject, setSelectedProject] = useState<any>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   
   const { ref, inView } = useInView({
     threshold: 0.1,
@@ -20,6 +23,16 @@ const Projects: React.FC = () => {
   const filteredProjects = activeFilter === 'All Projects' 
     ? projects 
     : projects.filter(project => project.category === activeFilter);
+
+  const openProjectModal = (project: any) => {
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
+
+  const closeProjectModal = () => {
+    setIsModalOpen(false);
+    setSelectedProject(null);
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -100,18 +113,26 @@ const Projects: React.FC = () => {
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.3 }}
                   >
+                    <div className="h-48 w-full rounded-lg overflow-hidden">
                     <img
-                      src={project.image}
+                      src={project.images[0]}
                       alt={project.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-500"
                     />
+                  </div>
                     <motion.div
                       initial={{ opacity: 0 }}
                       whileHover={{ opacity: 1 }}
                       className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-center justify-center"
                     >
                       <div className="flex gap-3">
+                        <motion.button
+                          onClick={() => openProjectModal(project)}
+                          whileHover={{ scale: 1.1 }}
+                          className="p-2 bg-accent-purple rounded-full text-white shadow-lg"
+                        >
+                          <Info size={20} />
+                        </motion.button>
                         <motion.a
                           href={project.live}
                           target="_blank"
@@ -146,7 +167,7 @@ const Projects: React.FC = () => {
                         </span>
                       </div>
                       <p className="text-gray-300 font-roboto text-sm leading-relaxed">
-                        {project.desc}
+                        {project.shortDesc}
                       </p>
                     </div>
 
@@ -164,6 +185,14 @@ const Projects: React.FC = () => {
 
                     {/* Links */}
                     <div className="flex gap-3 pt-2">
+                      <motion.button
+                        onClick={() => openProjectModal(project)}
+                        whileHover={{ scale: 1.05 }}
+                        className="flex-1 flex items-center justify-center gap-2 py-2 bg-accent-purple/20 border border-accent-purple/40 text-accent-purple rounded-lg hover:bg-accent-purple hover:text-white transition-all duration-300 text-sm font-roboto"
+                      >
+                        <Info size={16} />
+                        Details
+                      </motion.button>
                       <motion.a
                         href={project.live}
                         target="_blank"
@@ -173,16 +202,6 @@ const Projects: React.FC = () => {
                       >
                         <Eye size={16} />
                         Live Demo
-                      </motion.a>
-                      <motion.a
-                        href={project.repo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.05 }}
-                        className="flex-1 flex items-center justify-center gap-2 py-2 bg-white/10 border border-white/20 text-gray-300 rounded-lg hover:bg-white/20 hover:text-white transition-all duration-300 text-sm font-roboto"
-                      >
-                        <Github size={16} />
-                        Code
                       </motion.a>
                     </div>
                   </div>
@@ -201,6 +220,13 @@ const Projects: React.FC = () => {
             <p className="text-gray-400 font-roboto">No projects found in this category.</p>
           </motion.div>
         )}
+
+        {/* Project Modal */}
+        <ProjectModal
+          project={selectedProject}
+          isOpen={isModalOpen}
+          onClose={closeProjectModal}
+        />
       </div>
     </section>
   );

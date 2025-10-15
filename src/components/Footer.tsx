@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
             className="cursor-pointer inline-block"
           >
             <h3 className="text-3xl font-poppins font-bold text-white">
-              {hero.name}<span className="text-electric-blue">.</span>
+              {hero.name}
             </h3>
             <p className="text-gray-400 font-roboto mt-2">
               Full Stack Developer & Tech Content Creator
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
             <p>
               © {currentYear} {hero.fullName}. All rights reserved.
             </p>
-            <div className="flex items-center gap-1">
+            {/* <div className="flex items-center gap-1">
               <span>Made with</span>
               <motion.div
                 animate={{ scale: [1, 1.2, 1] }}
@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
                 <Heart size={16} className="text-red-500 fill-current" />
               </motion.div>
               <span>and React</span>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Quick Links */}

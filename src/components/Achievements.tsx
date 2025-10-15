@@ -139,25 +139,26 @@ const Achievements: React.FC = () => {
             <div className="relative space-y-12">
               {[
                 {
-                  year: '2021',
+                  year: '2022',
                   title: 'Started B.Tech CSE',
                   description: 'Began my journey in Computer Science Engineering',
                 },
                 {
-                  year: '2022',
+                  year: '2023',
                   title: 'Class Representative',
                   description: 'Elected as Class Representative, developing leadership skills',
-                },
-                {
-                  year: '2023',
-                  title: 'Founded gtech_dsa',
-                  description: 'Started creating tech content and teaching DSA concepts',
                 },
                 {
                   year: '2024',
                   title: 'Full Stack Projects',
                   description: 'Built multiple real-world applications and gained industry experience',
                 },
+                {
+                  year: '2025',
+                  title: 'Founded gtech_dsa',
+                  description: 'Started creating tech content and teaching DSA concepts',
+                },
+                
               ].map((milestone, index) => (
                 <motion.div
                   key={index}

@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from './components/Navbar';
 import ScrollProgress from './components/ScrollProgress';
 import BackToTop from './components/BackToTop';

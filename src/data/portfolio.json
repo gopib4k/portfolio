@@ -1,13 +1,13 @@
 {
   "hero": {
-    "name": "Gopi",
+    "name": "M Venkat Gopi Krishna",
     "fullName": "Mere Venkat Gopi Krishna",
     "roles": ["Full Stack Developer", "Tech Content Creator", "Founder of gtech_dsa"],
     "tagline": "I build responsive web applications, share my learnings through content, and believe in growing by teaching.",
     "ctas": ["See My Work", "Get in Touch", "Download Resume"],
     "socials": {
-      "github": "https://github.com/yourusername",
-      "linkedin": "https://linkedin.com/in/yourusername",
+      "github": "https://github.com/gopib4k",
+      "linkedin": "https://www.linkedin.com/in/venkat-gopi-krishna/",
       "instagram": "https://instagram.com/gtech_dsa"
     }
   },
@@ -26,122 +26,238 @@
       "id": 1,
       "title": "Rythu Vikas",
       "category": "Full Stack",
-      "desc": "A platform connecting farmers with buyers directly, enabling better market access and fair pricing.",
+      "shortDesc": "A platform connecting farmers with buyers directly, enabling better market access and fair pricing.",
+      "longDesc": "Rythu Vikas is a comprehensive agricultural platform designed to bridge the gap between farmers and buyers. The platform eliminates middlemen, ensuring farmers get fair prices for their produce while buyers get fresh, quality products directly from the source. Features include real-time price tracking, quality assessment tools, logistics coordination, and secure payment systems. The platform also provides weather updates, crop advisory services, and market trend analysis to help farmers make informed decisions.",
       "tech": ["React", "Flask", "MongoDB", "WebSockets"],
+      "features": [
+        "Direct farmer-to-buyer marketplace",
+        "Real-time price tracking and notifications",
+        "Quality assessment and certification system",
+        "Integrated logistics and delivery management",
+        "Secure payment gateway with escrow services",
+        "Weather updates and crop advisory",
+        "Market trend analysis and insights",
+        "Multi-language support for rural areas"
+      ],
+      "challenges": [
+        "Building trust between farmers and buyers",
+        "Handling real-time price fluctuations",
+        "Creating an intuitive interface for rural users",
+        "Implementing secure payment systems"
+      ],
+      "solutions": [
+        "Implemented user verification and rating system",
+        "Created dynamic pricing algorithms with market data",
+        "Designed simple, icon-based UI with voice support",
+        "Integrated multiple payment gateways with fraud detection"
+      ],
       "live": "https://demo.com",
-      "repo": "https://github.com/yourusername/rythu-vikas",
-      "image": "https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "repo": "https://github.com/gopib4k/rythu-vikas.git",
+      "images": [
+        "/rythu1.png",
+        "/rythu2.png",
+        "/rythu3.png",
+        "/rythu4.png"
+      ]
     },
     {
-      "id": 2,
-      "title": "Barcode Billing App",
-      "category": "Full Stack",
-      "desc": "Real-time billing and product management system with barcode scanning capabilities.",
-      "tech": ["React", "Node.js", "MongoDB", "Express"],
-      "live": "https://demo.com",
-      "repo": "https://github.com/yourusername/barcode-app",
-      "image": "https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg?auto=compress&cs=tinysrgb&w=800"
-    },
+  "id": 2,
+  "title": "Pet Rescue",
+  "category": "Full Stack",
+  "shortDesc": "A web platform dedicated to rescuing, adopting, and managing pets in need, connecting shelters with adopters.",
+  "longDesc": "Pet Rescue is a full-stack web application designed to streamline the process of rescuing and adopting pets. The platform connects pet shelters, volunteers, and potential adopters, allowing users to browse available pets, submit adoption requests, and manage rescue operations efficiently. It also enables admins to oversee rescue cases, monitor adoption progress, and manage user registrations, all within a clean and responsive interface.",
+  "tech": ["Django", "React", "PostgresSQL", "REST API"],
+  "features": [
+    "Pet listing and adoption management",
+    "User registration and login with authentication",
+    "Admin dashboard for managing rescue operations",
+    "Volunteer and shelter collaboration system",
+    "Pet details with images, health, and rescue status",
+    "Search and filter functionality for easy browsing",
+    "Responsive UI with clean design",
+    "Email notifications for adoption updates"
+  ],
+  "challenges": [
+    "Integrating backend and frontend seamlessly",
+    "Managing data consistency across different user roles",
+    "Handling image uploads and storage efficiently",
+    "Designing a user-friendly adoption workflow"
+  ],
+  "solutions": [
+    "Developed REST APIs using Django for smooth frontend-backend interaction",
+    "Implemented role-based authentication for admin and users",
+    "Used Django ORM for stable and efficient database management",
+    "Optimized UI with responsive components for all devices"
+  ],
+  "live": "https://demo.com",
+  "repo": "https://github.com/gopib4k/Pet_Rescue.git",
+  "images": [
+    "/pet1.png",
+    "/pet2.png",
+    "/pet3.png"
+  ]
+},
     {
-      "id": 3,
-      "title": "AI Crop Classifier",
-      "category": "AI/ML",
-      "desc": "Machine learning model to identify and classify crops from images using computer vision.",
-      "tech": ["Python", "TensorFlow", "Flask", "OpenCV"],
-      "live": "https://demo.com",
-      "repo": "https://github.com/yourusername/crop-classifier",
-      "image": "https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=800"
-    },
+  "id": 3,
+  "title": "GTECH DSA CheatSheet",
+  "category": "Frontend",
+  "shortDesc": "Designed a DSA-focused website featuring 30 curated questions on Arrays and Strings with patterns, LeetCode links, and company tags to help students crack their dream placements.",
+  "longDesc": "This project is a comprehensive DSA Cheatsheet focused on Arrays and Strings. It includes 30 hand-picked questions covering essential problem-solving patterns that frequently appear in coding rounds and technical interviews. These patterns include:\n\n- Two Pointers\n- Sliding Window\n- Binary Search\n- Stack\n- HashMap\n- XOR Trick\n- Prefix/Suffix Arrays\n- Kadane's Algorithm (DP)\n- Boyer-Moore Voting Algorithm\n- Brute Force to Optimization\n- Simple Traversal\n- In-place Swap\n- 3-way Partitioning\n- HashSet\n- Shrinking Window\n- Binary Search Variations\n- Binary Search on Rotated Arrays\n- Horizontal/Vertical Scanning\n- Reverse Sections\n- Floyd's Cycle Detection\n- Math Tricks\n\nThe goal was to provide a high-quality resource to help aspiring developers practice pattern-based problem-solving efficiently.",
+  "tech": ["JavaScript", "HTML5", "Tailwind CSS"],
+  "features": [
+    "Interactive algorithm visualizations",
+    "Step-by-step code execution tracking",
+    "Gamified learning experience",
+    "Support for custom input testing",
+    "Performance comparison of algorithms",
+    "Code playground with syntax highlighting",
+    "Quiz system with instant feedback",
+    "User progress tracking and achievements"
+  ],
+  "challenges": [
+    "Curating a question set that comprehensively covers key DSA patterns took significant research and time, as I wanted to ensure the content would truly help users prepare for top tech placements."
+  ],
+  "solutions": [
+    "Collaborated with peers to shortlist 30 questions based on past interview experiences, frequently asked LeetCode problems, and common patterns observed in FAANG-level coding assessments."
+  ],
+  "live": "https://gtechdsa.netlify.app/",
+  "repo": "https://github.com/gopib4k/gtechdsa.git",
+  "images": [
+    "/gtech1.png",
+    "/gtech2.png",
+    "/gtech3.png"
+  ]
+},
     {
       "id": 4,
-      "title": "DSA Visualizer",
-      "category": "Frontend",
-      "desc": "Interactive game-style tool to explain Data Structures and Algorithms concepts visually.",
-      "tech": ["React", "D3.js", "Tailwind CSS", "Framer Motion"],
-      "live": "https://demo.com",
-      "repo": "https://github.com/yourusername/dsa-visualizer",
-      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
-    },
-    {
-      "id": 5,
       "title": "Portfolio Website",
       "category": "Frontend",
-      "desc": "Modern, responsive portfolio website with glassmorphism design and smooth animations.",
+      "shortDesc": "Modern, responsive portfolio website with glassmorphism design and smooth animations.",
+      "longDesc": "A cutting-edge personal portfolio website showcasing modern web development techniques and design principles. Built with React and enhanced with Framer Motion animations, the site features glassmorphism design, smooth scrolling, interactive elements, and responsive layouts. The website serves as both a portfolio showcase and a demonstration of advanced frontend development skills, including performance optimization, accessibility features, and modern CSS techniques.",
       "tech": ["React", "Tailwind CSS", "Framer Motion"],
+      "features": [
+        "Glassmorphism design with modern aesthetics",
+        "Smooth scroll animations and transitions",
+        "Fully responsive across all devices",
+        "Interactive project showcases",
+        "Performance optimized with lazy loading",
+        "SEO optimized with meta tags",
+        "Accessibility compliant (WCAG guidelines)",
+        "Dark theme with elegant color schemes"
+      ],
+      "challenges": [
+        "Achieving smooth animations without performance issues",
+        "Creating consistent glassmorphism effects",
+        "Ensuring accessibility while maintaining design",
+        "Optimizing for various screen sizes and devices"
+      ],
+      "solutions": [
+        "Used Framer Motion with optimized animation strategies",
+        "Implemented CSS backdrop-filter with fallbacks",
+        "Added ARIA labels and keyboard navigation support",
+        "Extensive testing on multiple devices and browsers"
+      ],
       "live": "https://demo.com",
-      "repo": "https://github.com/yourusername/portfolio",
-      "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "repo": "https://github.com/gopib4k/portfolio.git",
+      "images": [
+        "/portfolio1.png",
+        "/portfolio2.png",
+        "/portfolio3.png"
+      ]
     },
     {
-      "id": 6,
-      "title": "Snake Game",
-      "category": "Games",
-      "desc": "Classic snake game with modern UI and high score tracking.",
-      "tech": ["JavaScript", "HTML5 Canvas", "CSS3"],
-      "live": "https://demo.com",
-      "repo": "https://github.com/yourusername/snake-game",
-      "image": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800"
-    }
+  "id": 5,
+  "title": "Epileptic Seizure Disorder Detection using Deep Learning",
+  "category": "AI/ML",
+  "shortDesc": "An intelligent system that detects epileptic seizures from EEG signals using deep learning models for early diagnosis and treatment support.",
+  "longDesc": "This project focuses on developing a deep learning-based model to automatically detect epileptic seizures from EEG (electroencephalogram) data. Traditional diagnosis of epilepsy involves manual analysis of EEG signals, which is time-consuming and prone to human error. The proposed system leverages convolutional neural networks (CNNs) and LSTM architectures to classify EEG signals into normal and seizure classes with high accuracy. The model helps neurologists and medical practitioners make faster and more reliable decisions in identifying seizure patterns.",
+  "tech": ["Python", "TensorFlow", "Keras", "NumPy", "Pandas", "Matplotlib", "Scikit-learn"],
+  "features": [
+    "EEG signal preprocessing and normalization",
+    "Automated seizure detection using deep learning models",
+    "CNN and LSTM hybrid model for improved accuracy",
+    "Data visualization for EEG patterns and classifications",
+    "Performance metrics including accuracy, precision, and recall",
+    "Model evaluation and validation using real EEG datasets",
+    "User-friendly interface for result interpretation"
+  ],
+  "challenges": [
+    "Dealing with high-dimensional and noisy EEG data",
+    "Selecting optimal deep learning architecture for time-series signals",
+    "Ensuring high accuracy with limited labeled data",
+    "Preventing overfitting in model training"
+  ],
+  "solutions": [
+    "Applied advanced preprocessing techniques to remove noise and artifacts",
+    "Utilized hybrid CNN-LSTM model to capture spatial and temporal features",
+    "Implemented data augmentation for balanced training",
+    "Used dropout and regularization methods to improve generalization"
+  ],
+  "live": "https://demo.com",
+  "repo": "https://github.com/gopib4k/epileptic-seizure-detection.git",
+  "images": [
+    "/epilepsy1.png",
+    "/epilepsy2.png"
+  ]
+}
   ],
   "skills": {
     "frontend": [
-      { "name": "React", "level": 90, "icon": "react" },
-      { "name": "Next.js", "level": 85, "icon": "nextjs" },
-      { "name": "Tailwind CSS", "level": 95, "icon": "tailwind" },
-      { "name": "Redux", "level": 80, "icon": "redux" },
-      { "name": "TypeScript", "level": 85, "icon": "typescript" },
-      { "name": "JavaScript", "level": 90, "icon": "javascript" },
-      { "name": "HTML5", "level": 95, "icon": "html" },
-      { "name": "CSS3", "level": 90, "icon": "css" }
+      { "name": "React", "level": 75, "icon": "react" },
+      { "name": "Tailwind CSS", "level": 75, "icon": "tailwind" },
+      { "name": "TypeScript", "level": 75, "icon": "typescript" },
+      { "name": "JavaScript", "level": 80, "icon": "javascript" },
+      { "name": "HTML5", "level": 80, "icon": "html" },
+      { "name": "CSS3", "level": 80, "icon": "css" }
     ],
     "backend": [
-      { "name": "Flask", "level": 85, "icon": "flask" },
-      { "name": "Node.js", "level": 80, "icon": "nodejs" },
-      { "name": "Express", "level": 75, "icon": "express" },
-      { "name": "REST APIs", "level": 85, "icon": "api" },
-      { "name": "Python", "level": 90, "icon": "python" },
-      { "name": "MongoDB", "level": 80, "icon": "mongodb" }
+      { "name": "Flask", "level": 75, "icon": "flask" },
+      { "name": "REST APIs", "level": 80, "icon": "api" },
+      { "name": "Python", "level": 85, "icon": "python" }
     ],
     "database": [
-      { "name": "MongoDB", "level": 80, "icon": "mongodb" },
+      { "name": "MongoDB", "level": 75, "icon": "mongodb" },
       { "name": "PostgreSQL", "level": 75, "icon": "postgresql" },
-      { "name": "MySQL", "level": 70, "icon": "mysql" },
-      { "name": "Firebase", "level": 85, "icon": "firebase" }
+      { "name": "MySQL", "level": 80, "icon": "mysql" }
     ],
     "tools": [
-      { "name": "Git", "level": 90, "icon": "git" },
-      { "name": "GitHub", "level": 90, "icon": "github" },
-      { "name": "VSCode", "level": 95, "icon": "vscode" },
-      { "name": "Postman", "level": 85, "icon": "postman" },
-      { "name": "Docker", "level": 70, "icon": "docker" },
-      { "name": "Figma", "level": 75, "icon": "figma" }
-    ],
-    "testing": [
-      { "name": "PyTest", "level": 80, "icon": "pytest" },
-      { "name": "Jest", "level": 75, "icon": "jest" },
-      { "name": "React Testing Library", "level": 70, "icon": "testing" }
+      { "name": "Git", "level": 80, "icon": "git" },
+      { "name": "GitHub", "level": 80, "icon": "github" },
+      { "name": "VSCode", "level": 80, "icon": "vscode" },
+      { "name": "Postman", "level": 80, "icon": "postman" }
     ]
   },
   "achievements": {
-    "certifications": [
-      "Full Stack Web Development - Coursera",
-      "Python for Data Science - IBM",
-      "React Advanced Patterns - Udemy"
-    ],
-    "awards": [
-      "Best Project Award - College Tech Fest 2023",
-      "Outstanding Leadership - Class Representative",
-      "Top Contributor - Open Source Project"
-    ],
-    "education": [
-      "B.Tech Computer Science Engineering",
-      "CGPA: 8.5/10",
-      "Expected Graduation: 2025"
-    ],
-    "extras": ["Leadership", "Teamwork", "Communication", "Problem Solving", "Content Creation"]
-  },
+  "certifications": [
+    "CCNA: Introduction to Networks - Cisco",
+    "Python Foundation Certification - Infosys Springboard",
+    "Database Management System - Infosys Springboard",
+    "JobReady Employability Skills - Wadhwani Foundation",
+    "Learn JavaScript Certification - Coursera"
+  ],
+  "awards": [
+    "Team Leader - Smart India Hackathon 2024 Internal Round (Team ID: 16129)",
+    "Problem Solving - Solved 100+ problems on LeetCode",
+    "Outstanding Leadership - Class Representative (2022-Present)",
+    "Founder - GTech_DSA Instagram Tech Channel (10K+ followers, 750K+ views)"
+  ],
+  "education": [
+    "B.Tech in Computer Science and Engineering - Malla Reddy College of Engineering and Technology, Hyderabad (2022-2026)",
+    "CGPA: 9.16",
+    "Board of Intermediate Education - A.S.R Govt Junior College, Khammam (2020-2022) | Percentage: 96.9%"
+  ],
+  "extras": [
+    "Leadership",
+    "Team Collaboration",
+    "Problem Solving",
+    "Communication",
+    "Time Management",
+    "Content Creation",
+    "Interpersonal Skills"
+  ]
+},
   "contact": {
-    "email": "gopivenkat@example.com",
+    "email": "gopim2565@gmail.com",
     "message": "Open to collaborations, projects, or just a good tech talk 🚀"
   }
 }

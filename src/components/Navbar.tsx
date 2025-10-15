@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
             className="text-xl lg:text-2xl font-poppins font-bold text-white cursor-pointer"
             onClick={() => handleNavClick('#hero')}
           >
-            Gopi<span className="text-electric-blue">.</span>
+            M Venkat Gopi Krishna
           </motion.div>
 
           {/* Desktop Navigation */}
